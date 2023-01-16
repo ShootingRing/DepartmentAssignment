@@ -1,12 +1,12 @@
 import {createRouter, createWebHashHistory} from 'vue-router'
 
-const home = () => import('src/components/home.vue')
+const home = () => import('~/components/home.vue')
 const notFound = () => import('~/components/404.vue')
 
 const routes = [
     {
         path: '/',
-        redirect: '/login'
+        redirect: '/home'
     },
     {
         path: '/home',
