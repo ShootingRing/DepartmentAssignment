@@ -125,11 +125,11 @@ const changeAngle = () => {
 <style scoped>
 
 .content {
-  width: 1500px;
+  width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items: center;
+  align-items: start;
 
 }
 
@@ -183,17 +183,19 @@ const changeAngle = () => {
 }
 
 .right {
-  margin-top: -32px;
-  margin-right: -10%;
+  /*margin-top: -32px;*/
+  /*margin-right: -10%;*/
+  padding: 20px 0;
+  width: 39%;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.4);
   z-index: 2;
 }
 
 .loginPanel {
-  width: 400px;
+  width: 60%;
   height: 100%;
-  padding: 38px 115px;
+  padding: 38px 100px;
 }
 
 .avatar {

@@ -1,11 +1,11 @@
 <template>
-  <n-form>
+  <n-form style="max-height: 185px">
     <n-form-item class="username-item">
       <n-input
           placeholder="请输入手机号/学号"
           size="large"
           autosize
-          style="min-width: 100%; min-height: 50px; text-align: left;"
+          style="min-width: 100%; min-height: 35px; text-align: left;"
       >
         <template #prefix>
           <n-icon size="25">
@@ -19,7 +19,7 @@
           placeholder="请输入验证码"
           size="large"
           autosize
-          style="min-width: 100%; min-height: 50px; text-align: left;"
+          style="min-width: 100%; min-height: 35px; text-align: left;"
           type="password"
       >
         <template #prefix>
@@ -37,7 +37,7 @@
           placeholder="请输入短信动态码"
           size="large"
           autosize
-          style="min-width: 100%; min-height: 50px; text-align: left;"
+          style="min-width: 100%; min-height: 35px; text-align: left;"
           type="password"
       >
         <template #prefix>
@@ -58,7 +58,7 @@
 
 .username-item {
   margin-bottom: -30px;
-  margin-top: -25px;
+  margin-top: -16px;
 }
 
 .password-item {
