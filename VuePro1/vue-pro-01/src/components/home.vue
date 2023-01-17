@@ -178,6 +178,14 @@ const changeAngle = () => {
   flex-direction: column;
 }
 
+.leftLogo {
+  width: 100%;
+  height: 100%;
+  text-align: start;
+  margin-top: 51px;
+  margin-left: 127px;
+}
+
 .logo {
   margin-left: 26px;
 }
@@ -254,6 +262,8 @@ a {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+
+  padding-bottom: 10px;
 }
 
 .QRCodeImg {
