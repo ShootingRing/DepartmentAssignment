@@ -46,13 +46,6 @@
                     <LoginQR></LoginQR>
                   </n-tab-pane>
                 </n-tabs>
-                <n-button
-                    type="primary"
-                    size="large"
-                    style="width: 100%; height: 50px; margin-top: 20px;"
-                    color="#2368de"
-                    v-if="angle"
-                >登录</n-button>
                 <!--忘记密码       账号激活-->
                 <!--账号申诉       账号申请-->
                 <div class="bottomLinks" v-if="angle">
@@ -117,8 +110,6 @@ const handleSelect = (key) => {
 const changeAngle = () => {
   angle.value = !angle.value;
 }
-
-
 
 </script>
 

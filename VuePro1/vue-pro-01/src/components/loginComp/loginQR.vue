@@ -51,6 +51,13 @@
       </n-input>
     </n-form-item>
   </n-form>
+  <n-button
+      type="primary"
+      size="large"
+      style="width: 100%; height: 50px; margin-top: 20px;"
+      color="#2368de"
+      @click="submit"
+  >登录</n-button>
 
 </template>
 
