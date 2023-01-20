@@ -31,9 +31,9 @@
     </n-form-item>
   </n-form>
 <!--  7天免登录-->
-  <n-checkbox-group style="display: flex">
-    <n-checkbox size="large">7天免登录</n-checkbox>
-  </n-checkbox-group>
+  <div style="display: flex">
+    <n-checkbox size="large" v-model:checked="value">7天免登录</n-checkbox>
+  </div>
 
 </template>
 
@@ -48,5 +48,7 @@
 
 <script setup>
 import {UserRegular, Lock} from "@vicons/fa";
+import {ref} from "vue";
 
+const value = ref(false);
 </script>
